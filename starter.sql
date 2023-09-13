@@ -1,0 +1,27 @@
+-- הטבלה הראשונה שמור רק הקוד נמחק, ניתן לראות בטבלאות האחרות איך בניתי את הטבלה
+-- create table university.teachers(
+-- 	teacher_id serial PRIMARY KEY,
+-- 	first_name text not null,
+-- 	last_name text not null,
+-- 	date_of_birth date,
+-- 	email text Unique,
+-- 	department text,
+-- 	hire_date date
+-- )
+-- INSERT INTO university.teachers (first_name, last_name, date_of_birth, email, department)
+-- VALUES
+--     ('Professor', 'Anderson', '1975-04-08', 'prof.anderson@example.com', 'Computer Science'),
+--     ('Dr. Sarah', 'Wilson', '1980-12-20', 'sarah.wilson@example.com', 'Mathematics'),
+--     ('Mr. James', 'Brown', '1978-06-14', 'james.brown@example.com', 'History');
+-- CREATE TABLE university.courses (
+--     course_id serial PRIMARY KEY,
+--     course_name text NOT NULL,
+--     department text,
+--     credits numeric
+-- );
+-- INSERT INTO university.courses (course_name, department)
+-- VALUES
+--     ('Introduction to Programming', 'Computer Science'),
+--     ('Calculus I', 'Mathematics'),
+--     ('World History', 'History');
+
